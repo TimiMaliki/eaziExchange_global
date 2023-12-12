@@ -125,17 +125,6 @@ a{
     z-index: var(--z-fixed);
   }
 }
-.nav__menu:focus,
-.nav__menu:active {
-    outline: none; /* Remove default outline */
-    border: none; /* Remove default border */
-    /* Add your custom styles to indicate the active state */
-    /* For example: */
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* Adding a shadow */
-    /* Or */
-    background-color: #ccc; /* Changing background color */
-}
-
 .nav__item{
   margin-bottom: var(--mb-2);
 }
