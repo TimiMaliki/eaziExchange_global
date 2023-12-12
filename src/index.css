@@ -104,6 +104,11 @@ a{
   align-items: center;
 }
 
+ .nav__menu:focus,  .nav__menu:active {
+  outline: none; /* Remove default outline */
+  border: none; /* Remove default border */
+}
+
 @media screen and (max-width: 768px){
   .nav__menu{
     position: fixed;
@@ -151,6 +156,11 @@ a{
 /* Active menu */
 .active-link{
   color: rgb(192, 11, 192);
+}
+
+button:focus, button:active {
+  outline: none; /* Remove default outline */
+  border: none; /* Remove default border */
 }
 
 /* Change background header */
