@@ -119,6 +119,9 @@ a{
 .nav__logo{
   margin-left: -7rem;
 }
+.nav__socials{
+  margin-left: 7rem;
+}
 
 /*========== NAV ==========*/
 .nav{
@@ -147,6 +150,9 @@ a{
   }
 
   .nav__logo{
+    margin-left: 0rem;
+  }
+  .nav__socials{
     margin-left: 0rem;
   }
 }
