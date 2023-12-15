@@ -122,6 +122,11 @@ a{
 .nav__socials{
   margin-left: 7rem;
 }
+.img-logo{
+  /* width: 100%; */
+  /* height: 50px; */
+  /* object-fit: cover; */
+}
 
 /*========== NAV ==========*/
 .nav{
@@ -155,6 +160,8 @@ a{
   .nav__socials{
     margin-left: 0rem;
   }
+  
+  
 }
 .nav__item{
   margin-bottom:0;
