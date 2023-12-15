@@ -20,35 +20,6 @@
   --primary-rgb: 240, 165, 0;
     --primary-color: #9604c6;
     --accent-color: #ffca18;
-    --secondary-color: #171825;
-    --theme-color1: #c2554f;
-    --theme-color2: #ff8981;
-    --theme-color3: #f6a400;
-    --theme-color4: #cdad14;
-    --theme-color5: #96b0b7;
-    --theme-color6: #2f4858;
-    --primary-gradient: linear-gradient( -45deg, var(--primary-color), var(--secondary-color) );
-    --gray-0: #f8f9fa;
-    --gray-1: #f4f5f1;
-    --gray-2: #e9ecef;
-    --gray-3: #dee2e6;
-    --gray-4: #ced4da;
-    --gray-5: #adb5bd;
-    --gray-6: #868e96;
-    --gray-7: #495057;
-    --gray-8: #343a40;
-    --gray-9: #212529;
-    --white: #ffffff;
-    --black: #000000;
-    --dark: #212529;
-    --font-color: var(--gray-8);
-    --heading-color: var(--gray-9);
-    --border-color: var(--gray-2);
-    --body-color: var(--gray-1);
-    --card-color: var(--white);
-    --sidebar-color: var(--white);
-    --buy-color: #0ecb81;
-    --sell-color: #f6465d;
 }
 :root {
     --bs-blue: #0d6efd;
@@ -61,46 +32,8 @@
     --bs-green: #198754;
     --bs-teal: #20c997;
     --bs-cyan: #0dcaf0;
-    --bs-black: #000;
-    --bs-white: #fff;
-    --bs-gray: #6c757d;
-    --bs-gray-dark: #343a40;
-    --bs-gray-100: #f8f9fa;
-    --bs-gray-200: #e9ecef;
-    --bs-gray-300: #dee2e6;
-    --bs-gray-400: #ced4da;
-    --bs-gray-500: #adb5bd;
-    --bs-gray-600: #6c757d;
-    --bs-gray-700: #495057;
-    --bs-gray-800: #343a40;
-    --bs-gray-900: #212529;
-    --bs-primary: #0d6efd;
-    --bs-secondary: #6c757d;
-    --bs-success: #198754;
-    --bs-info: #0dcaf0;
-    --bs-warning: #ffc107;
-    --bs-danger: #dc3545;
-    --bs-light: #f8f9fa;
-    --bs-dark: #212529;
-    --bs-primary-rgb: 13, 110, 253;
-    --bs-secondary-rgb: 108, 117, 125;
-    --bs-success-rgb: 25, 135, 84;
-    --bs-info-rgb: 13, 202, 240;
-    --bs-warning-rgb: 255, 193, 7;
-    --bs-danger-rgb: 220, 53, 69;
-    --bs-light-rgb: 248, 249, 250;
-    --bs-dark-rgb: 33, 37, 41;
-    --bs-white-rgb: 255, 255, 255;
-    --bs-black-rgb: 0, 0, 0;
-    --bs-body-color-rgb: 33, 37, 41;
-    --bs-body-bg-rgb: 255, 255, 255;
-    --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-    --bs-gradient: linear-gradient( 180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0) );
-    --bs-body-font-family: var(--bs-font-sans-serif);
-    --bs-body-font-size: 1rem;
-    --bs-body-font-weight: 400;
-    --bs-body-line-height: 1.5;
+  
+
 
 
   /*========== Font and typography ==========*/
@@ -211,7 +144,7 @@ a{
   }
 }
 .nav__item{
-  margin-bottom: var(--mb-2);
+  margin-bottom:0;
 }
 
  .nav__toggle{
